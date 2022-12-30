@@ -14,6 +14,11 @@ from dateutil.parser import parse
 import plotly.graph_objects as go
 import dash_auth
 from users import USERNAME_PASSWORD_PAIRS
+from assets.database import init_db
+from assets.database import read_data
+
+init_db()
+read_data()
 
 #以下コードを記す。
 data = db_session.query(Data.Vessel,Data.Carrier,Data.Voyage,Data.Service,Data.Pod,Data.ETA,Data.Berthing,Data.timestamp+td(hours=9)).all()
