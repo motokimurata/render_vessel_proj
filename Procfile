@@ -1,1 +1,2 @@
-web: gunicorn view:server --log-file -
+# Modify this Procfile to fit your needs
+web: gunicorn view:app

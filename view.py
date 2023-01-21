@@ -14,11 +14,6 @@ from dateutil.parser import parse
 import plotly.graph_objects as go
 import dash_auth
 from users import USERNAME_PASSWORD_PAIRS
-from assets.database import init_db
-from assets.database import read_data
-
-init_db()
-read_data()
 
 #以下コードを記す。
 data = db_session.query(Data.Vessel,Data.Carrier,Data.Voyage,Data.Service,Data.Pod,Data.ETA,Data.Berthing,Data.timestamp+td(hours=9)).all()
@@ -1842,7 +1837,7 @@ tab_selected_style = {
 }
 
 app.layout =  html.Div([
-        html.H1(children='    船名 Delay Report',
+        html.H1(children='    日本輸入 本船遅延情報',
         style={
             'color': '#FFFFFF', 
             'borderTop': '1px solid #d6d6d6',
