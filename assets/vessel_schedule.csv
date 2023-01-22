@@ -1,9 +1,9 @@
-vessel,carrier,voyage No.,service,POD,ETA,Berthing,Updatetime
-sample,ONE,sample,sample,TYO,20220101,20220101,2023/1/9 00:00:00
-sample,SAS,sample,sample,TYO,20220101,20220101,2023/1/10 00:00:00
-sample,WHL,sample,sample,TYO,20220101,20220101,2023/1/11 00:00:00
-sample,TSL,sample,sample,TYO,20220101,20220101,2023/1/12 00:00:00
-sample,MSK,sample,sample,TYO,20220101,20220101,2023/1/13 00:00:00
-sample,OOC,sample,sample,TYO,20220101,20220101,2023/1/14 00:00:00
-sample,EVG,sample,sample,TYO,20220101,20220101,2023/1/15 00:00:00
-sample,CMA,sample,sample,TYO,20220101,20220101,2023/1/16 00:00:00
+vessel,carrier,voyage No.,service,POD,ETA,Berthing
+sample,ONE,sample,sample,TYO,2023/01/01,2023/01/02
+sample,SAS,sample,sample,TYO,2023/01/02,2023/01/03
+sample,WHL,sample,sample,TYO,2023/01/03,2023/01/04
+sample,TSL,sample,sample,TYO,2023/01/04,2023/01/05
+sample,MSK,sample,sample,TYO,2023/01/05,2023/01/06
+sample,OOC,sample,sample,TYO,2023/01/06,2023/01/07
+sample,EVG,sample,sample,TYO,2023/01/07,2023/01/08
+sample,CMA,sample,sample,TYO,2023/01/08,2023/01/09

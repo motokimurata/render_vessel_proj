@@ -21,7 +21,7 @@ class Data(Base):
     Pod = Column(String)
     ETA = Column(String)
     Berthing = Column(String)
-    timestamp = Column(DateTime, default=dt.now())
+    timestamp = Column(DateTime, default=dt.now()+td(hours=+9))
 
     def __init__(self, Vessel=None, Carrier=None, Voyage=None,Service=None, Pod=None, ETA=None, Berthing=None ,timestamp=None):
         self.Vessel = Vessel
