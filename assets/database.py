@@ -8,7 +8,7 @@ import os
 import pandas as pd
 
 databese_file = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'data.db')
-engine = create_engine(os.environ.get('DATABASE_URL') or'sqlite:///' + databese_file, convert_unicode=True , echo=True)
+engine = create_engine(os.environ.get("postgres://t4lite:o4geiDjZqoFH9mv@top2.nearest.of.t4lite-db.internal:5432/t4lite?sslmode=disable") or'sqlite:///' + databese_file, convert_unicode=True , echo=True)
 db_session = scoped_session(
                 sessionmaker(
                     autocommit = False,
