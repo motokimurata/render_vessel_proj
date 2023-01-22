@@ -12,3 +12,4 @@ RUN poetry config virtualenvs.create false
  
 COPY pyproject.toml ./
 RUN poetry install --no-root --no-dev
+CMD gunicorn view:server

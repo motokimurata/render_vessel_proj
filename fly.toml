@@ -1,12 +1,9 @@
-# fly.toml file generated for t4litev4 on 2022-12-31T20:11:48+09:00
+# fly.toml file generated for t4lite on 2023-01-22T16:20:45+09:00
 
-app = "t4litev4"
+app = "t4lite"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
-
-[build]
-  builder = "paketobuildpacks/builder:base"
 
 [env]
   PORT = "8080"
